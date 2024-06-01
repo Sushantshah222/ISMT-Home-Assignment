@@ -30,14 +30,21 @@ print(string)
 
 #5. ⁠WAP that asks 10 user with their name and store them in a list. Print the name of only those users whose name starts with ‘a’ or ‘A’
 
-user_name=['praseeda','bianca','aayush','aditya','ram','sita']
-for i in user_name:
+User_name=[]
+for i in range(10):
+    name=input("Enter the Name: ")
+    User_name.append(name)
+for i in User_name:
     if(i[0]=='A' or i[0]=='a'):
         print(i)
+ 
 
 #6. ⁠WAP that asks 10 user with their name and store them in a list. Print the name of only those users whose name ends with ‘a’ or ‘A’
 
-user_name=['praseeda','bianca','aayush','aditya','ram','sita']
-for i in user_name:
+User_name=[]
+for i in range(10):
+    name=input("Enter the Name: ")
+    User_name.append(name)
+for i in User_name:
     if(i[-1]=='A' or i[-1]=='a'):
         print(i)
